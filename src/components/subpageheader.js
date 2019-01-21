@@ -1,5 +1,14 @@
 import React from "react"
+import { Link } from "gatsby"
 
 export default props => (
-    <h1>{props.headerText}</h1>
+    <div>
+        <pre>
+{`-----------------------------------`}<br />
+{`--- `}{<Link to="/">{props.name}</Link>}{` ------------------`}<br />
+{`-----------------------------------`}<br />
+{`-------------------- `}{props.link === "inactive" ? props.siteArea : <Link to="/">{props.siteArea}</Link>}{` -------`}<br />
+{`-----------------------------------`}
+        </pre>
+    </div>
 )

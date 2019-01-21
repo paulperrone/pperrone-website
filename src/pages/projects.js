@@ -4,7 +4,7 @@ import SubpageHeader from "../components/subpageheader"
 
 export default () => (
     <div>
-        <SubpageHeader headerText="Projects" />
+        <SubpageHeader name="paul perrone" />
         <Link to="/">Home</Link>
         <p>Placeholder text</p>
     </div>

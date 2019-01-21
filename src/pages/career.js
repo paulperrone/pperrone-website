@@ -1,11 +1,9 @@
 import React from "react"
-import {Link} from "gatsby"
 import SubpageHeader from "../components/subpageheader"
 
 export default () => (
     <div>
-        <SubpageHeader headerText="Career" />
-        <Link to="/">Home</Link>
+        <SubpageHeader name="paul perrone" siteArea="career" link="inactive" />
         <p>Placeholder text</p>
     </div>
 )
