@@ -3,8 +3,8 @@ import containerStyles from "./titlecontainer.module.css"
 
 export default props => (
     <div className={containerStyles.container}>
-        <pre>{`
------------------------------------
+        <pre>
+{`-----------------------------------
 --- the ---------------------------
 -----------------------------------
 ---------------- paul perrone -----
