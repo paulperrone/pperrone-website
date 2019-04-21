@@ -4,7 +4,7 @@ import ComingSoon from "../components/comingsoon";
 
 export default () => (
   <div>
-    <SubpageHeader name="home" siteArea="projects" linkStatus="inactive" />
+    <SubpageHeader name="home" siteArea="other" linkStatus="inactive" />
     <ComingSoon />
   </div>
 );

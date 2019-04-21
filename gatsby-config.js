@@ -11,7 +11,7 @@ module.exports = {
         name: "posts",
         // Path on Linux
         // path: `${__dirname}/content/posts/`
-        
+
         //Path on Windows
         path: `${__dirname}\\content\\posts\\`
       }

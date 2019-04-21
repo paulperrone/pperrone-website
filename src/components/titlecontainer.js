@@ -1,15 +1,15 @@
-import React from "react"
-import containerStyles from "./titlecontainer.module.css"
+import React from "react";
+import containerStyles from "./titlecontainer.module.css";
 
 export default props => (
-    <div className={containerStyles.container}>
-        <pre>
-{`-----------------------------------
+  <div className={containerStyles.container}>
+    <pre>
+      {`-----------------------------------
 --- the ---------------------------
 -----------------------------------
----------------- paul perrone -----
+------------------ paul perrone ---
 -----------------------------------
 `}
-        </pre>
-    </div>
-)
+    </pre>
+  </div>
+);
