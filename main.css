@@ -1,0 +1,28 @@
+.site-text {
+  font-family: "Cutive Mono", monospace;
+  color: black;
+  text-align: center;
+}
+.site-link {
+  font-family: "Cutive Mono", monospace;
+  text-decoration: underline;
+  color: blue;
+  text-align: center;
+}
+.blog-link {
+    font-family: "Cutive Mono", monospace;
+    text-decoration: underline;
+    color: blue;
+    text-align: center;
+}
+.row {
+  flex-direction: row;
+  margin-left: -1rem;
+  width: calc(100% + 2rem);
+}
+.centered-item {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

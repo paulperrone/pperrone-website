@@ -13,62 +13,39 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
     />
+    <link rel="stylesheet" href="../main.css" />
   </head>
-  <style>
-    .hero-text {
-      font-family: "Cutive Mono", monospace;
-      color: black;
-      text-align: center;
-    }
-    .links {
-      font-family: "Cutive Mono", monospace;
-      text-decoration: underline;
-      color: blue;
-      text-align: center;
-    }
-  </style>
-  <div class="container">
-    <div class="row">
-      <div class="column">
-        <div style="display: flex; justify-content: space-between; margin-top: 1em;">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <a href="../index.html" class="links">home</a>
-          <a href="../about/index.html" class="links">about</a>
-          <a href="./index.html" class="links">blog</a>
-          <a href="../career/index.html" class="links">career</a>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+  <body>
+    <p class="site-text" style="margin-top: 1em">paul perrone</p>
+    <div class="container">
+      <div class="row row-center">
+        <div class="column">
+          <div style="display: flex; justify-content: space-between">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <a class="site-link" href="../index.html">home</a>
+            <a class="site-link" href="../about/index.html">about</a>
+            <a class="site-link" href="./index.html">blog</a>
+            <a class="site-link" href="../career/index.html">career</a>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="column" style="text-align: center;">
+          <p><a href="./posts/" class="blog-link">blog post 1</a></p>
+          <p><a href="./posts/" class="blog-link">blog post 2</a></p>
+          <p><a href="./posts/" class="blog-link">blog post 3</a></p>
+          <p><a href="./posts/" class="blog-link">blog post 4</a></p>
+          <p class="site-text">Copyright © 2020 Paul Perrone</p>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="column">
-        <hr />
-      </div>
-    </div>
-    <div class="row">
-      <div class="column">
-          <p class="hero-text">
-            blog
-          </p>
-        <p class="hero-text">
-          <a href="./posts/" class="links">blog post 1</a>
-        </p>
-        <p class="hero-text">
-          <a href="./posts/" class="links">blog post 2</a>
-        </p>
-        <p class="hero-text">
-          <a href="./posts/" class="links">blog post 3</a>
-        </p>
-        <p class="hero-text">
-          <a href="./posts/" class="links">blog post 4</a>
-        </p>
-      </div>
-    </div>
-  </div>
+  </body>
 </html>
